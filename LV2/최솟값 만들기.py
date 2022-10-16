@@ -5,4 +5,4 @@ def solution(A,B):
     for i in range(len(A)):
         answer_sum += A[i] * B[i]
         
-    return answer_sum
+    return answer_sum 
