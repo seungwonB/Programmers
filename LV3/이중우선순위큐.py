@@ -34,3 +34,26 @@ def solution(operations):
         answer = [arr[-1], arr[0]]
         
     return answer
+
+def solution(operations):
+#     answer = []
+#     heap = []
+# 
+#     for i in operations:
+#         if i[0] == "I":
+#             heapq.heappush(heap, int(i[2:]))
+#         else:
+#             if len(heap) == 0:
+#                 pass
+#             elif i[2] == "-":
+#                 heapq.heappop(heap)
+#             else:
+#                 heap.remove(heapq.nlargest(1, heap)[0])
+# 
+#     if heap:
+#         answer = [heap[-1], heap[0]]
+#     else:
+#         answer = [0, 0]
+#     return answer
+    
+    
